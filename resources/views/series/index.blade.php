@@ -13,7 +13,7 @@
         <form action="{{route('series.destroy', $series->id)}}" method="post">
           @csrf
           @method('DELETE')
-          <button class=" btn btn-danger">Excluir</button>
+          <button class=" btn btn-danger">Teste</button>
         </form>
       </li>
     <?php endforeach; ?>
